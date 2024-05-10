@@ -1,0 +1,68 @@
+@keyframes spin0 {
+  from { transform:rotate(0turn);}
+  to { transform:rotate(1turn);}
+}
+@keyframes spin1 {
+  from { transform:rotate(0.1turn);}
+  to { transform:rotate(1.1turn);}
+}
+@keyframes spin2 {
+  from { transform:rotate(0.2turn);}
+  to { transform:rotate(1.2turn);}
+}
+@keyframes spin3 {
+  from { transform:rotate(0.3turn);}
+  to { transform:rotate(1.3turn);}
+}
+@keyframes spin4 {
+  from { transform:rotate(0.4turn);}
+  to { transform:rotate(1.4turn);}
+}
+
+
+#sun {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /* margin-left: 50% */
+}
+
+.ray {
+  left: calc(50% - 6%);
+  position: absolute;
+  width: 12%;
+  max-width: 30px;
+  height: 100%;
+  background-color: #FFD700;
+}
+
+.ray0 {
+  animation-name: spin0;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.ray1 {
+  animation-name: spin1;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.ray2 {
+  animation-name: spin2;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.ray3 {
+  animation-name: spin3;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.ray4 {
+  animation-name: spin4;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
